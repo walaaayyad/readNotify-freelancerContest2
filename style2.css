@@ -331,21 +331,21 @@ section .features-tracking {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 70px;
-    padding-bottom: 100px;
+    /* padding-top: 70px;
+    padding-bottom: 100px; */
 }
 .step {
-    position: relative;
-    padding: 20px;
+    /* position: relative;
+    padding: 20px; */
 }
 .step .step-num {
-    color: #4b4a4a;
-    font-size: 12rem;
+    color: #9E9E9E;
+    font-size: 10rem;
     font-weight: 700;
-    opacity: 0.2;
-    position: absolute;
-    top: -80%;
-    left: 40%;
+    opacity: 0.4;
+    /* position: absolute; */
+    /* top: -60%;
+    left: -12%; */
 }
 .step-title {
     font-weight: 500;
@@ -681,10 +681,13 @@ footer .btn {
     .step .step-num {
     font-size: 5rem;
     font-weight: 700;
-    opacity: 0.2;
-    position: absolute;
+    /* position: absolute;
     top: -55%;
-    left: 45%;
+    left: 45%; */
+    }
+    .use-steps .justify-content-center {
+    justify-content: flex-start !important;
+    margin-left: 25%;
     }
     
      /*  Footer */
@@ -834,6 +837,11 @@ footer .btn {
     }
     .testimoial-box-item:last-child {
     height: 32%;
+    }
+
+    /* USE STEPS */
+    .use-steps .justify-content-center {
+    margin-left: 5%;
     }
 }
 
