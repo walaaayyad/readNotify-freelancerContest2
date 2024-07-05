@@ -325,6 +325,33 @@ section .features-tracking {
     padding: 0px !important;
 }
 
+/* use-steps */
+.use-steps {
+    background-image: url(./images/map.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.step {
+    position: relative;
+    padding: 20px;
+}
+.step .step-num {
+    color: #4b4a4a;
+    font-size: 12rem;
+    font-weight: 700;
+    opacity: 0.2;
+    position: absolute;
+    top: -80%;
+    left: 40%;
+}
+.step-title {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
 /*  Footer */
 footer {
     background-color: var(--primary-color);
@@ -648,6 +675,16 @@ footer .btn {
     }
     .testimoial-box-item:last-child {
         font-size: 1rem;
+    }
+
+    /* use steps */
+    .step .step-num {
+    font-size: 5rem;
+    font-weight: 700;
+    opacity: 0.2;
+    position: absolute;
+    top: -55%;
+    left: 45%;
     }
     
      /*  Footer */
