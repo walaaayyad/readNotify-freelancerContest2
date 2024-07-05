@@ -211,8 +211,8 @@ ul {
 /*   About Section   */
 .about {
     padding: 100px 0px;
-    background-color: #eef1f59e;
-    border-bottom: 2px solid #eee;
+    background-color: #f8f8f8;
+    /* border-bottom: 2px solid #eee; */
 }
 .about-text-box {
     border-radius: 15px;
@@ -287,10 +287,10 @@ ul {
 .testimonial-box {
     width: 70%;
     height: 350px;
-    background-color: #f5f6f9;
+    background-color: #f8f8f8;
     border-radius: 10px;
     position: relative;
-    border: 2px solid #eee;
+    /* border: 2px solid #eee; */
 }
 .testimoial-box-item:first-child {
     height: 60%;
